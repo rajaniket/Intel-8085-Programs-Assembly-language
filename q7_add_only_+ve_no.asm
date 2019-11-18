@@ -1,6 +1,6 @@
-;To add only postive number out of 10 numbers stored in 
-; mem locn 0030h 0039h;
+;To add only postive number out of 10 numbers stored in mem locn 0030h 0039h;
 ;store the addition result in 0040h and carry in 0041h
+
 mvi c,0fh ; intializing counter value
 mvi b,00h ; B will story carry 
 mvi d,00h
