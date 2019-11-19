@@ -1,6 +1,6 @@
-;
-;
-;
+;A set of data are stored in memory location starting from 0030h 
+;Add the data bytes together till it counters with zeros
+;store the result in 0040h and carry in 0041h
 lxi h,0030h
 mvi a,00h
 mvi b,00h
