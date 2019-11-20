@@ -1,0 +1,9 @@
+mvi c,0ah
+mvi b,0aH
+lxi h,0030h
+mov a,m
+inx h
+cmp m
+jnc l1
+mov b,m
+mov m,a
