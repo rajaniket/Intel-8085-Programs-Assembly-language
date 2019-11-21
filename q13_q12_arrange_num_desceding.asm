@@ -1,4 +1,4 @@
-;
+;Arrange the number stores in the memory into assending order
 ;
 mvi c,0ah
 dcr c
