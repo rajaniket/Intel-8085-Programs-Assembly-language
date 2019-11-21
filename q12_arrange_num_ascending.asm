@@ -1,5 +1,5 @@
 ;Arrange the number stores in the memory(0030h to 0039h) into ascending order 
-;
+
 mvi c,0ah     ; initializing counter value
 dcr c         ; decreasing the counter because it will count 4 ---> 0 =>5 ,when c=0 assending work completed
 l3: mov b,c   ; b is also a counter in case of innner loop 
