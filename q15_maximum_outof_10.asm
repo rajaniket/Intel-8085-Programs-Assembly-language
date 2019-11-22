@@ -1,4 +1,6 @@
 ;Maximum out of 10 number
+;Numbers are stored in 0030h to 0039h and result will be store in 0040h
+
 mvi c,0ah
 dcr c
 lxi h,0030h
