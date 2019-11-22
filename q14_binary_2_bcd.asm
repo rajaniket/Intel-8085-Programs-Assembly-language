@@ -1,4 +1,6 @@
-;Convert binary equivalent to bcd equivalent
+;8085 program to Convert binary equivalent to bcd equivalent
+;input mem location is 0030h & output will show in 0031,32,33 consecutively
+
 mvi b,00h
 mvi c,00h
 mvi d,64h
