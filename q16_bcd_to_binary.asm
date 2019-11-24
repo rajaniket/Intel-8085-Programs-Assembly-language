@@ -1,4 +1,6 @@
 ;Program to convert bcd number to binary 
+;take input from memory locn 0030h
+
 lxi h,0030h
 mov a,m
 ani 0fh
