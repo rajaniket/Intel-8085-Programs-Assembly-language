@@ -1,4 +1,4 @@
-;display Down counter with delay of 0.25 sec with MODIDT(036E)
+;Show the Down counter with delay of 0.25 sec on kit display use MODIDT(036E) subroutine for displaying 
 ;pre-defined subroutine modidt for displaying data 
 lxi sp,0040h
 mvi a,ffh
