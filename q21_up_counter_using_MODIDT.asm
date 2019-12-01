@@ -1,4 +1,4 @@
-;display up counter with delay of 0.25 sec with MODIDT(036E)
+;display up counter on 8085 kit with delay of 0.25 sec use MODIDT(036E) subroutine to display acc content
 ;pre-defined subroutine modidt for displaying data 
 lxi sp,0040h
 mvi a,00h
