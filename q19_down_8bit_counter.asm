@@ -1,4 +1,4 @@
-;Down counter(8 led) with delay of 0.25 sec with ppi 8255
+; Display Down counter using 8 1bit led with delay of 0.25 sec use ppi 8255 port to take output
 lxi sp,0040h
 mvi a,80h
 out 13h
