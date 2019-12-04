@@ -1,4 +1,4 @@
-;up counter(8 led) with delay of 0.25 sec with ppi 8255
+;display up counter using 8 led with delay of 0.25 sec with ppi 8255
 lxi sp,0040h
 mvi a,80h
 out 13h
