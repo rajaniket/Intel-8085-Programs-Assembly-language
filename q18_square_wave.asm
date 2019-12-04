@@ -1,4 +1,4 @@
-;square wave with delay of 0.25 sec with ppi 8255
+; Generate square wave with delay of 0.25 sec use ppi 8255 to take output
 lxi sp,0040h
 mvi a,80h
 out 13h
