@@ -1,5 +1,5 @@
 ;prog to add content of portA and PortB
-;store its result in port c
+;show its result in port c
 ;use i/o mode of 8255
 lxi sp,100
 mvi a,92h
