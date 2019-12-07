@@ -1,4 +1,4 @@
-; Program to generate square wave of 10kHz using ppi 8255 ,
+; Program to generate square wave of 10kHz using ppi 8255
 ; using output port Port c,bit3
 lxi sp,0064
 k1: mvi a,07h
