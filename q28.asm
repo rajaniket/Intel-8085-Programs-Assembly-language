@@ -1,5 +1,5 @@
-;Write a prog to set port c7 and c3 and reset them after 0.2ms
-;use bsr mode of 8255
+;Write a program to set port c7 and c3 and reset them after 0.2ms
+;use bsr mode of ppi 8255
 lxi sp,100
 mvi a,0fh
 out 83h
