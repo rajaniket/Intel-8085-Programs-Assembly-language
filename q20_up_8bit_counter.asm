@@ -11,8 +11,7 @@ mov a,b
 cpi 255
 jnz l2
 jmp l1
-
-delay: lxi h,7a0fh
+delay: lxi h,7a0fh   ;Delay definition for 0.25 sec
 k1: dcx h
 mov a,l
 ora h
