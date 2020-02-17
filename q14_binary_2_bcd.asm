@@ -2,9 +2,9 @@
 ;input mem location is 0030h & output will show in 0031,32,33 consecutively
 
 mvi b,00h
-mvi c,00h
-mvi d,64h
-lxi h,0030h
+mvi c,00h 
+mvi d,64h ;moving 100 to d
+lxi h,0030h ;initializing hl pair
 mov a,m
 k1: sub d
 jc l1
